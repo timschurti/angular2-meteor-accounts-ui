@@ -16,8 +16,10 @@ export interface LoginCredentials {
   styles: [
     `
       .login-buttons {
-        position: relative;
+        position: absolute;
         display: inline-block;
+        top: 10px;
+        right: 638px;
       }
       .login-buttons .dropdown-toggle span {
         cursor: pointer;
